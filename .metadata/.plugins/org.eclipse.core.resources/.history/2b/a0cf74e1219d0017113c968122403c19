@@ -1,0 +1,16 @@
+package com.patterns.objectauthenticator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmployeeManagerTest {
+
+	@Test
+	public void testGetData() throws Exception {
+		EmployeeManager manager = new EmployeeManager();
+		String result = manager.getData("first", "worker");
+		System.out.println(result);
+	}
+
+}

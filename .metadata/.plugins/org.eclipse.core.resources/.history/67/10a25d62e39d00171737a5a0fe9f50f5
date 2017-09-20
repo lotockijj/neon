@@ -1,0 +1,5 @@
+package com.softserve.point;
+
+public class Point3D {
+
+}

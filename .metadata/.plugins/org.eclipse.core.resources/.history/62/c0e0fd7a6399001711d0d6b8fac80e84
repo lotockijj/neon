@@ -1,0 +1,11 @@
+package com.patterns.command;
+
+public class SwitchOff implements CommandInterface {
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

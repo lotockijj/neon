@@ -1,0 +1,25 @@
+package com.patterns.command;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CommandInterfaceTest {
+
+	@Test
+	public void test() {
+		Command light = new Light();
+		Command tv = new TV();
+		CommandInterface command = new SwitchOn(light);
+		CommandInterface command2 = new SwitchOff(light);
+		CommandInterface command3 = new SwitchOn(tv);
+		CommandInterface command4 = new SwitchOff(tv);
+		ActionManager action = new ActionManager();
+		action.addCommand(command);
+		action.addCommand(command2);
+		action.addCommand(command3);
+		action.addCommand(command4);
+		action.process();
+	}
+
+}

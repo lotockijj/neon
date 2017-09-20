@@ -1,0 +1,14 @@
+package com.patterns.mediator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ApplicationMediatorTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

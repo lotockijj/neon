@@ -1,0 +1,17 @@
+package com.patterns.state;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MemberAccountTest {
+
+	@Test
+	public void testIsAllowed() {
+		MemberAccount account = new MemberAccount(1, "Roman");
+		account.setPaid(true);
+		State active = new Active(account.getState());
+		System.out.println(active);
+	}
+
+}

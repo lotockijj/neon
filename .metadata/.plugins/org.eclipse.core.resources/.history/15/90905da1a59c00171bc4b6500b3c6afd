@@ -1,0 +1,5 @@
+package com.patterns.objectauthenticator;
+
+public class AuthManager {
+
+}

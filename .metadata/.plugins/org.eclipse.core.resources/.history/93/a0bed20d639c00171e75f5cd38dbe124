@@ -1,0 +1,24 @@
+package com.patterns.state;
+
+import java.util.Date;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class MemberAccountTest {
+
+	@Test
+	public void testIsAllowed() {
+		MemberAccount account = new MemberAccount(1, "Roman");
+		account.setDate(new Date());
+		account.setPaid(true);
+		State active = new Active(account.getState());
+		Assert.assertTrue(active.isAllowed());
+		account.setPaid(false);
+		Assert.assertFalse(active.isAllowed());
+		State due = new Due(account.getState());
+		Assert.assertFalse(due.isAllowed());
+	}
+
+}

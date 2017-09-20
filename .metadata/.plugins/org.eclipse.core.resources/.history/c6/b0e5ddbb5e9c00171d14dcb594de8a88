@@ -1,0 +1,14 @@
+package com.patterns.state;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MemberAccountTest {
+
+	@Test
+	public void testIsAllowed() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.patterns.command;
+
+public class SwitchOff implements CommandInterface {
+	private Light light;
+	
+	public SwitchOff(Light light) {
+		this.light = light;
+	}
+
+
+	@Override
+	public void execute() {
+		light.off();
+	}
+
+}

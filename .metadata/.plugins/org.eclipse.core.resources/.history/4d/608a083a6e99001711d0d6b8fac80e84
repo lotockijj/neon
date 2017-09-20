@@ -1,0 +1,17 @@
+package com.patterns.command.second;
+
+public class CockPit implements CommandController {
+
+	@Override
+	public String execute(String command) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean canHandle(String command) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

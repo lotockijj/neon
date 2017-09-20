@@ -1,0 +1,24 @@
+package com.softserve.next;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class CarManager {
+	
+	public void serializeCar(List<Car> cars){
+		try(ObjectOutputStream oos = 
+				new ObjectOutputStream(new FileOutputStream("cars.txt"))){
+			for (int i = 0; i < cars.size(); i++) {
+				oos.writeObject(cars.get(i));
+			}
+			oos.reset();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

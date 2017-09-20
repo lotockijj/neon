@@ -1,0 +1,5 @@
+package com.softserve.next;
+
+public class RoadTrain extends Car {
+
+}
