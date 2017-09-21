@@ -1,0 +1,12 @@
+package com.softserve.company;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+public class Manager extends Worker {
+
+	public Manager(Date startDate, BigDecimal rate) {
+		super(startDate, rate);
+	}
+
+}

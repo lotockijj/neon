@@ -1,0 +1,56 @@
+package com.softserve.current;
+
+public class EAbc extends Abc {
+	private int id;
+	private String name;
+	
+	public EAbc(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	
+	
+	public static void main(String[] args) {
+//		for (double i = 7; i < 8; i++) {
+//			System.out.println(i);
+//		}
+//		System.out.println("Done");
+		EAbc a = new EAbc(1, "First");
+		EAbc b = new EAbc(2, "Second");
+		b = a;
+		a.setName("Third");
+		System.out.println(b.getName());
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.softserve.current;
+
+public class EAbc extends Abc {
+	
+	public static void main(String[] args) {
+		for (int i = 32766; i < 032767; i++) {
+			System.out.println(i);
+		}
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
