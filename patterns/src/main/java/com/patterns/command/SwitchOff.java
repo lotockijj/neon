@@ -12,4 +12,9 @@ public class SwitchOff implements CommandInterface {
 		command.off();
 	}
 
+	@Override
+	public void undo() {
+		command.on();
+	}
+
 }

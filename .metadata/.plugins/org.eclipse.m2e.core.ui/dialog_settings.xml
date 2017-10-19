@@ -57,6 +57,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="FirstSpringMvcProject"/>
+			<item value="demo.zip_expanded"/>
 			<item value="SpringMvcStepByStep-master.zip_expanded"/>
 			<item value="UCSDGraphs"/>
 		</list>
@@ -65,6 +67,8 @@
 			<item value="graph"/>
 		</list>
 		<list key="artifactId">
+			<item value="FirstSpringMvcProject"/>
+			<item value="demo.zip_expanded"/>
 			<item value="SpringMvcStepByStep-master.zip_expanded"/>
 			<item value="UCSDGraphs"/>
 		</list>
@@ -74,6 +78,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\neon\UCSDGraphs"/>
+			<item value="D:\neon\servicetwo"/>
 			<item value="D:\neon"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -87,23 +93,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.softserve.next"/>
-			<item value="com.patterns"/>
-			<item value="com.my.main"/>
-			<item value="com.faberlic"/>
-			<item value="groupid.artifactid"/>
+			<item value="messaging_redis.hello2"/>
+			<item value="springmvc.hello"/>
+			<item value="upload_files.my"/>
 		</list>
 		<list key="groupId">
-			<item value="com.softserve"/>
-			<item value="com"/>
-			<item value="groupid"/>
+			<item value="messaging_redis"/>
+			<item value="springmvc"/>
+			<item value="upload-files"/>
 		</list>
 		<list key="artifactId">
-			<item value="next"/>
-			<item value="patterns"/>
-			<item value="my.main"/>
-			<item value="faberlic"/>
-			<item value="artifactid"/>
+			<item value="hello2"/>
+			<item value="hello"/>
+			<item value="my"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

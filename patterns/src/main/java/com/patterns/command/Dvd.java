@@ -12,5 +12,4 @@ public class Dvd implements Command {
 		System.out.println("Dvd OFF...");
 	}
 
-
 }

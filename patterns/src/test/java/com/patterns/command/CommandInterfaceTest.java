@@ -9,20 +9,20 @@ public class CommandInterfaceTest {
 		Command light = new Light();
 		Command tv = new TV();
 		Command dvd = new Dvd();
-		CommandInterface command = new SwitchOn(light);
-		CommandInterface command2 = new SwitchOff(light);
+		CommandInterface command1 = new SwitchOn(light);
 		CommandInterface command3 = new SwitchOn(tv);
-		CommandInterface command4 = new SwitchOff(tv);
 		CommandInterface command5 = new SwitchOn(dvd);
-		CommandInterface command6 = new SwitchOff(dvd);
+		System.out.println("Command 5 execute: ");
+		command5.execute();
+		System.out.println("Command 5 undo");
+		command5.undo();
 		ActionManager action = new ActionManager();
-		action.addCommand(command);
-		action.addCommand(command2);
+		action.addCommand(command1);
 		action.addCommand(command3);
-		action.addCommand(command4);
 		action.addCommand(command5);
-		action.addCommand(command6);
 		action.process();
+		System.out.println("============================");
+		action.undo();
 	}
 
 }

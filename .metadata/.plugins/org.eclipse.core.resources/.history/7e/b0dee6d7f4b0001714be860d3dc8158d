@@ -1,0 +1,20 @@
+package codility;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class Solution3Test {
+
+
+	@Test
+	public void testCompute() {
+		int[] arr = {3, 1, 2, 4, 3};
+		Assert.assertEquals(1, Solution3.compute(arr));
+		int[] arr2 = {1, 2, 3};
+		Assert.assertEquals(0, Solution3.compute(arr2));
+		int[] arr3 = {1, 6, 9, 2, 5, 8};
+		Assert.assertEquals(1, Solution3.compute(arr3));
+	}
+
+}

@@ -2,6 +2,9 @@ package com.patterns;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class App {
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
@@ -44,5 +47,16 @@ public class App {
 		}
 		System.out.println();
 		System.out.println(bytesToAlphabeticString(result));
+		List<String> list = new ArrayList<>();
+		list.add("something");
+		list.add("something 2 :) ");
+		for (Iterator<String> iterator = list.iterator(); iterator.hasNext();) {
+			System.out.println(iterator.next());
+		}
+		list.clear();
+		for (Iterator<String> iterator = list.iterator(); iterator.hasNext();) {
+			System.out.println(iterator.next());
+			throw new NumberFormatException();
+		}
 	}
 }

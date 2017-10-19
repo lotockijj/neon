@@ -1,6 +1,0 @@
-0 = Item [barCode=11101\, weight=11.0\, volume=11.0\, description=first\, price=1000]
-1 = Item [barCode=55505\, weight=55.0\, volume=55.0\, description=fifth\, price=5000]
-2 = Item [barCode=33303\, weight=33.0\, volume=33.0\, description=third\, price=3000]
-3 = Item [barCode=55505\, weight=55.0\, volume=55.0\, description=fifth\, price=5000]
-4 = Item [barCode=66606\, weight=66.0\, volume=66.0\, description=sixth\, price=6000]
-5 = Item [barCode=11101\, weight=11.0\, volume=11.0\, description=first\, price=1000]

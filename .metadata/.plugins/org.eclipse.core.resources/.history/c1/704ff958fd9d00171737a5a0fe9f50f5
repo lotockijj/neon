@@ -1,7 +1,0 @@
-package shape;
-
-import javafx.scene.shape.Rectangle;
-
-public class Square extends Rectangle {
-
-}

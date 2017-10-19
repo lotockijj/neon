@@ -5,7 +5,7 @@
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.virtualproxy{Something.java[Something" modifiers="1025" timestamp="1505197077584"/>
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.countingproxy{Common.java[Common" modifiers="513" timestamp="1505200872219"/>
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.countingproxy.library{Attendance.java[Attendance" modifiers="513" timestamp="1505203329828"/>
-<typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.command{CommandInterface.java[CommandInterface" modifiers="513" timestamp="1505403372874"/>
+<typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.command{CommandInterface.java[CommandInterface" modifiers="513" timestamp="1506674083127"/>
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.command{Command.java[Command" modifiers="513" timestamp="1505404412340"/>
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.command.second{CommandController.java[CommandController" modifiers="513" timestamp="1505406470947"/>
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.mediator{Colleague.java[Colleague" modifiers="1025" timestamp="1505419180727"/>
@@ -13,5 +13,7 @@
 <typeInfo handle="=patterns/src\/main\/java&lt;com.patterns.objectauthenticator{EleksDocumentation.java[EleksDocumentation" modifiers="513" timestamp="1505758212793"/>
 <typeInfo handle="=next/src\/main\/java&lt;com.softserve.next{Car.java[Car" modifiers="1" timestamp="1505889998664"/>
 <typeInfo handle="=next/C:\/Program Files\/Java\/jdk1.8.0_73\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.scene.shape(Rectangle.class[Rectangle" modifiers="33" timestamp="1456922788527"/>
-<typeInfo handle="=next/src\/main\/java&lt;com.softserve.company{Worker.java[Worker" modifiers="1025" timestamp="1505918617492"/>
+<typeInfo handle="=next/src\/main\/java&lt;com.softserve.company{Worker.java[Worker" modifiers="1025" timestamp="1505919884830"/>
+<typeInfo handle="=next/src\/main\/java&lt;com.softserve.current{Abc.java[Abc" modifiers="1025" timestamp="1505983090947"/>
+<typeInfo handle="=patterns/C:\/Program Files\/Java\/jdk1.8.0_73\/jre\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1456922787371"/>
 </typeInfoHistroy>

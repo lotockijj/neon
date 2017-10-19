@@ -1,0 +1,5 @@
+package formvc;
+
+public class MyWebAppInitializer {
+
+}

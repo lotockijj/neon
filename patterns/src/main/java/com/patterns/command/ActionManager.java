@@ -20,4 +20,10 @@ public class ActionManager {
 		}
 	}
 	
+	public void undo(){
+		for(int i = 0; i < commands.size(); i++){
+			commands.get(i).undo();
+		}
+	}
+	
 }

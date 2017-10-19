@@ -1,0 +1,7 @@
+127.0.0.1 - - [18/Oct/2017:14:38:31 +0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [18/Oct/2017:14:38:33 +0300] "GET /FirstSpringMvcProject/ HTTP/1.1" 500 3788
+127.0.0.1 - - [18/Oct/2017:14:43:39 +0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [18/Oct/2017:14:43:39 +0300] "GET /FirstSpringMvcProject/WEB-INF/spring-dispatcher-servlet.xml HTTP/1.1" 404 1050
+127.0.0.1 - - [18/Oct/2017:14:46:23 +0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [18/Oct/2017:14:46:36 +0300] "GET /FirstSpringMVCProject/welcome.jsp HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [18/Oct/2017:14:47:40 +0300] "GET /FirstSpringMvcProject/ HTTP/1.1" 500 3788

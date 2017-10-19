@@ -1,5 +1,0 @@
-package com.softserve.company;
-
-public class Employee extends Worker {
-
-}
